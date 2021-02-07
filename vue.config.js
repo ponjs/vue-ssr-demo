@@ -32,10 +32,9 @@ function createServerConfig() {
 }
 
 module.exports = {
-  outputDir: './dist/' + TARGET,
-  css: {
-    extract: false
-  },
+  outputDir: '/dist/' + TARGET,
+  css: { extract: false },
+  productionSourceMap: false,
   configureWebpack: merge(
     { entry: `/src/entry-${TARGET}.js` },
     TARGET === 'client' ? createClientConfig() : createServerConfig()
