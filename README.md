@@ -1,19 +1,19 @@
-# vue-ssr-demo
+```bash
+# 安装依赖
+yarn
 
-## Project setup
-```
-yarn install
-```
+# 开发运行
+yarn dev
 
-### Compiles and hot-reloads for development
-```
+# 编译客户端
+yarn build:client
+
+# 编译服务端
+yarn build:server
+
+# 编译客户端和服务端
+yarn build
+
+# 启动编译后的本地服务
 yarn serve
 ```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
