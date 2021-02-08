@@ -32,7 +32,7 @@ function createServerConfig() {
 }
 
 module.exports = {
-  outputDir: '/dist/' + TARGET,
+  outputDir: './dist/' + TARGET,
   css: { extract: false },
   productionSourceMap: false,
   configureWebpack: merge(
