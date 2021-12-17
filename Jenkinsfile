@@ -7,5 +7,17 @@ pipeline {
       }
     }
 
+    stage('Build') {
+      steps {
+        sh 'yarn build'
+      }
+    }
+
+    stage('Serve') {
+      steps {
+        sh 'yarn serve'
+      }
+    }
+
   }
 }
