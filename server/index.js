@@ -26,6 +26,6 @@ app.get('*', async (req, res) => {
   }
 })
 
-app.listen(8080, () => {
-  console.log('http://localhost:8080')
+app.listen(10000, () => {
+  console.log('http://localhost:10000')
 })
